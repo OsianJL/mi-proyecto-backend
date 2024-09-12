@@ -1,6 +1,6 @@
-import User from '../models/UserPro';
+import User from '../models/User';
 import { Op } from 'sequelize';
-import { UserCreationAttributes } from '../types/UserPro'; // Si usas una interfaz para los atributos de usuario
+import { UserCreationAttributes } from '../types/User'; // Si usas una interfaz para los atributos de usuario
 
 // Función para verificar si un email o número de teléfono ya está en uso
 export const isEmailOrPhoneInUse = async (email: string, phoneNumber: string) => {

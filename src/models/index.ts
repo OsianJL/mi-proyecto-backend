@@ -1,5 +1,5 @@
 // models/index.ts
-import User from './User';
+import User from "./User";
 // Aquí puedes importar más modelos cuando los vayas creando
 // import Product from './Product';
 // import Order from './Order';
